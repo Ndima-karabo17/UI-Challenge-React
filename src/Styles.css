@@ -24,18 +24,19 @@ header{
 .dropdown {
   position: relative;
   display: inline-block;
- margin-left: -300px;
+  margin-left: -500px;
 }
 
-/* Dropdown button */
+
 .dropbtn {
   background: none;
   border: none;
   font: inherit;
   cursor: pointer;
   padding: 8px 12px;
-  font-size: 16px;
+  font-size: 18px;
   color: black;
+  margin-left: -100px;
 }
 
 
@@ -49,10 +50,9 @@ header{
   z-index: 10;
   min-width: 180px;
   border-radius: 5px;
-
+  margin-left: -100px;
 }
 
-/* Show menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
 }
@@ -81,24 +81,27 @@ header{
 
 .career-nav{
   display: flex;
-  gap: 50px;
-  
+  gap: 70px;
+  margin-top: 4px;
 }
 .career-nav a{
 text-decoration: none;
 color: rgb(75, 60, 60);
 font-weight: normal;
 margin-top: 5px;
+font-size: 18px;
+
 }
 .makes-div{
   display: flex;
-  margin-top: 30px;
+  margin-top: 40px;
   justify-content: space-between;
   padding: 60px;
 }
 .smaller-div{
 width: 50%;
 margin-left: 100px;
+margin-top: 60px;
 }
 
 #first-heading{
@@ -160,6 +163,4 @@ margin-top: -100px;
   margin-left: 450px;
 
 }
-
-
 
