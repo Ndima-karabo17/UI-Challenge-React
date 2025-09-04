@@ -17,8 +17,9 @@ header{
   position: relative;
 }
 .snap{
-  width:100px;
-  height: 40px;
+  width:70px;
+  height: 30px;
+  margin-top: 15px;
 }
 
 .dropdown {
@@ -117,9 +118,9 @@ margin-top: 60px;
  
 .login{
   text-decoration: none;
-  color: black;
+  color: rgb(78, 75, 75);
   padding-right: 50px;
- font-size: 20px;
+ font-size: 19px;
 
 }
 .registering:hover, .dropbtn:hover, .career-nav a:hover{
@@ -128,19 +129,22 @@ margin-top: 60px;
 
  .paragraph{
   font-size: 15px;
-  font-weight: 100;
-  color: rgba(139, 158, 155, 0.603);
+  color: black;
   margin-bottom: 30px;
  }
 .learn{
-  background-color: transparent;
-  border: 1px solid black;
+  background-color: black;
+  border: none;
   border-radius: 15px;
   height: 50px;
-  width: 130px;
+  width: 140px;
+  color: white;
+  
 }
 .learn:hover{
-color: blue;
+color: black;
+background-color: white;
+border: 1px solid black;
 }
 
 .big-image #laptop-guy{
