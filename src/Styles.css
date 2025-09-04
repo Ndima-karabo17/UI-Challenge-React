@@ -2,7 +2,9 @@
   margin:0;
   padding: 0;
 }
-
+body{
+    overflow-y:hidden ;
+}
 .app{
   width: 100%;
   height: 100%;
@@ -18,34 +20,64 @@ header{
   width:100px;
   height: 40px;
 }
-.dropbtn{
-  background: none;
-  border: none;
-  font: inherit;
-  cursor: pointer;
-  padding: 5px;
-}
-.dropdown-content{
-  position: absolute;
-  background-color: white;
-  box-shadow: 0px 8px 16px rgba(0, 0, 0,0.1);
-  z-index: 10;
-  min-width: 160px;
-  cursor: pointer;
-}
+/* Dropdown wrapper */
 .dropdown {
   position: relative;
   display: inline-block;
 
 }
-.dropdown-content a {
+
+/* Dropdown button */
+.dropbtn {
+  background: none;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  padding: 8px 12px;
+  font-size: 16px;
+  color: black;
+}
+
+/* Dropdown menu - hidden by default */
+.dropdown-content {
+  display: none; 
+  position: absolute;
+  top: 100%; 
+  left: 0;
+  background-color: white;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  min-width: 180px;
+  border-radius: 5px;
+  padding: 10px 0;
+}
+
+/* Show menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Dropdown items */
+.dropdown-content a,
+.dropdown-content div {
   display: flex;
   align-items: center;
-  padding: 4px 12px;
+  gap: 10px;
+  padding: 8px 16px;
   text-decoration: none;
   color: rgb(75, 60, 60);
-  font-weight: light;
+  font-weight: 400;
+  white-space: nowrap;
 }
+
+/* Hover effect for dropdown items */
+.dropdown-content a:hover,
+.dropdown-content div:hover {
+  background-color: #f0f0f0;
+  color: blue;
+  cursor: pointer;
+}
+
 
 .career-nav{
   display: flex;
@@ -56,6 +88,7 @@ header{
 text-decoration: none;
 color: rgb(75, 60, 60);
 font-weight: normal;
+margin-top: 5px;
 }
 .makes-div{
   display: flex;
@@ -67,31 +100,29 @@ font-weight: normal;
 width: 50%;
 margin-left: 100px;
 }
+
 #first-heading{
   font-size: 48px;
-    margin-bottom: 20px;
+  margin-bottom: 20px;
+  
 }
 .registering{
   background-color: transparent;
   border: 1px solid black;
   border-radius: 15px;
+ }
  
-}
 .login{
   text-decoration: none;
   color: black;
   padding-right: 50px;
-
-
-#first-heading{
-  font-size: 48px;
+ font-size: 20px;
 
 }
-
 .registering:hover, .dropbtn:hover, .career-nav a:hover{
   color: blue;
  }
- 
+
  .paragraph{
   font-size: 15px;
   font-weight: 100;
@@ -108,6 +139,7 @@ margin-left: 100px;
 .learn:hover{
 color: blue;
 }
+
 .big-image #laptop-guy{
 width: 100%;
 max-width: 50%;
