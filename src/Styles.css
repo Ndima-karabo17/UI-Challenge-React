@@ -86,3 +86,8 @@ width: 50%;
   font-size: 48px;
 
 }
+
+.registering:hover, .dropbtn:hover, .career-nav a:hover{
+  color: blue;
+ }
+ 
