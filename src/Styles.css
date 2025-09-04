@@ -49,7 +49,7 @@ header{
   z-index: 10;
   min-width: 180px;
   border-radius: 5px;
-  padding: 10px 0;
+
 }
 
 /* Show menu on hover */
@@ -160,4 +160,5 @@ margin-top: -100px;
   margin-left: 450px;
 
 }
+
 
