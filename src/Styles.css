@@ -108,4 +108,17 @@ margin-left: 100px;
 .learn:hover{
 color: blue;
 }
+.big-image #laptop-guy{
+width: 100%;
+max-width: 60%;
+height: auto;
+}
+.infor{
+  display: flex;
+ justify-content: space-around;
+ padding: 0px 200px;
+ margin-right: 500px;
+ margin-left: -200px;
+
+}
 
