@@ -20,11 +20,11 @@ header{
   width:100px;
   height: 40px;
 }
-/* Dropdown wrapper */
+
 .dropdown {
   position: relative;
   display: inline-block;
-
+ margin-left: -300px;
 }
 
 /* Dropdown button */
@@ -38,7 +38,7 @@ header{
   color: black;
 }
 
-/* Dropdown menu - hidden by default */
+
 .dropdown-content {
   display: none; 
   position: absolute;
@@ -57,7 +57,7 @@ header{
   display: block;
 }
 
-/* Dropdown items */
+
 .dropdown-content a,
 .dropdown-content div {
   display: flex;
@@ -70,7 +70,7 @@ header{
   white-space: nowrap;
 }
 
-/* Hover effect for dropdown items */
+
 .dropdown-content a:hover,
 .dropdown-content div:hover {
   background-color: #f0f0f0;
@@ -160,5 +160,6 @@ margin-top: -100px;
   margin-left: 450px;
 
 }
+
 
 
