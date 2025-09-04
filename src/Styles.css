@@ -110,7 +110,7 @@ color: blue;
 }
 .big-image #laptop-guy{
 width: 100%;
-max-width: 60%;
+max-width: 50%;
 height: auto;
 }
 .infor{
@@ -119,6 +119,13 @@ height: auto;
  padding: 0px 200px;
  margin-right: 500px;
  margin-left: -200px;
+
+}
+.infor > figure {
+margin-top: -100px;
+}
+#laptop-guy{
+  margin-left: 450px;
 
 }
 
