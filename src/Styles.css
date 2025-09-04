@@ -67,7 +67,22 @@ font-weight: normal;
 width: 50%;
 
 }
+#first-heading{
+  font-size: 48px;
+}
+.registering{
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 15px;
+ 
+}
+.login{
+  text-decoration: none;
+  color: black;
+  padding-right: 50px;
+
 
 #first-heading{
   font-size: 48px;
+
 }
