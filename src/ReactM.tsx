@@ -59,8 +59,8 @@ export default function ReactM(): ReactElement {
 
         <div className="register-div">
           <nav className="second-nav">
-            <Link to="/login">Login</Link>
-            <button className="registering">Register</button>
+            <Link to="/login">LOG IN</Link>
+            <button className="registering">REGISTER</button>
           </nav>
         </div>
       </header>
@@ -106,3 +106,4 @@ export default function ReactM(): ReactElement {
     </div>
   );
 }
+
