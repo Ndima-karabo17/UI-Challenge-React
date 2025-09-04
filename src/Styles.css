@@ -69,6 +69,7 @@ width: 50%;
 }
 #first-heading{
   font-size: 48px;
+    margin-bottom: 20px;
 }
 .registering{
   background-color: transparent;
@@ -91,3 +92,4 @@ width: 50%;
   color: blue;
  }
  
+
