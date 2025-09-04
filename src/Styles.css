@@ -65,7 +65,7 @@ font-weight: normal;
 }
 .smaller-div{
 width: 50%;
-
+margin-left: 100px;
 }
 #first-heading{
   font-size: 48px;
@@ -92,4 +92,20 @@ width: 50%;
   color: blue;
  }
  
+ .paragraph{
+  font-size: 15px;
+  font-weight: 100;
+  color: rgba(139, 158, 155, 0.603);
+  margin-bottom: 30px;
+ }
+.learn{
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 15px;
+  height: 50px;
+  width: 130px;
+}
+.learn:hover{
+color: blue;
+}
 
