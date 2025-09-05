@@ -95,7 +95,7 @@ font-size: 18px;
 }
 .makes-div{
   display: flex;
-  margin-top: 40px;
+  margin-top: -20px;
   justify-content: space-between;
   padding: 60px;
 }
@@ -106,7 +106,7 @@ margin-top: 60px;
 }
 
 #first-heading{
-  font-size: 48px;
+  font-size: 60px;
   margin-bottom: 20px;
   
 }
@@ -114,6 +114,7 @@ margin-top: 60px;
   background-color: transparent;
   border: 1px solid black;
   border-radius: 15px;
+  margin-top: 10px;
  }
  
 .login{
@@ -128,7 +129,7 @@ margin-top: 60px;
  }
 
  .paragraph{
-  font-size: 15px;
+  font-size: 22px;
   color: black;
   margin-bottom: 30px;
  }
@@ -139,6 +140,7 @@ margin-top: 60px;
   height: 50px;
   width: 140px;
   color: white;
+  margin-top: 50px;
   
 }
 .learn:hover{
@@ -148,9 +150,11 @@ border: 1px solid black;
 }
 
 .big-image #laptop-guy{
-width: 100%;
-max-width: 50%;
+width: 55%;
+
 height: auto;
+
+
 }
 .infor{
   display: flex;
@@ -164,7 +168,7 @@ height: auto;
 margin-top: -100px;
 }
 #laptop-guy{
-  margin-left: 450px;
+  margin-left: 300px;
 
 }
 
