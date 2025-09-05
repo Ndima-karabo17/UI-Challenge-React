@@ -2,9 +2,7 @@
   margin:0;
   padding: 0;
 }
-body{
-    overflow-y:hidden ;
-}
+
 .app{
   width: 100%;
   height: 100%;
@@ -80,17 +78,18 @@ header{
 }
 
 
-.career-nav{
+.career-div{
   display: flex;
   gap: 70px;
   margin-top: 4px;
 }
-.career-nav a{
+.career-div a{
 text-decoration: none;
 color: rgb(75, 60, 60);
 font-weight: normal;
-margin-top: 5px;
+margin-top: 10px;
 font-size: 18px;
+
 
 }
 .makes-div{
@@ -171,4 +170,73 @@ margin-top: -100px;
   margin-left: 300px;
 
 }
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
 
+  .dropdown {
+    margin-left: 0;
+  }
+
+  .dropbtn {
+    margin-left: 0;
+  }
+
+  .dropdown-content {
+    margin-left: 0;
+    min-width: 100%;
+  }
+
+  .career-div {
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 10px;
+  }
+
+  .makes-div {
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+  }
+
+  .smaller-div {
+    width: 100%;
+    margin: 20px 0 0 0;
+    text-align: center;
+  }
+
+  #first-heading {
+    font-size: 40px;
+  }
+
+  .paragraph {
+    font-size: 18px;
+  }
+
+  .infor {
+    flex-direction: column;
+    padding: 20px;
+    margin: 0;
+  }
+
+  #laptop-guy {
+    width: 100%;
+    margin: 20px auto;
+  }
+}
+@media screen and (max-width: 480px) {
+  #first-heading {
+    font-size: 30px;
+  }
+
+  .paragraph {
+    font-size: 16px;
+  }
+
+  .learn {
+    width: 100%;
+  }
+}
