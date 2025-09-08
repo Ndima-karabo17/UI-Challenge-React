@@ -1,32 +1,39 @@
-*{
-  margin:0;
+/* Reset default browser margins and paddings */
+* {
+  margin: 0;
   padding: 0;
 }
 
-.app{
+/* Base app container styling */
+.app {
   width: 100%;
   height: 100%;
 }
-header{
+
+/* Header layout with space between children */
+header {
   display: flex;
-  align-items:flex-start;
-  justify-content: space-between;
+  align-items: flex-start; 
+  justify-content: space-between; 
   padding: 0px 20px;
   position: relative;
 }
-.snap{
-  width:70px;
+
+/* Logo or branding image styling */
+.snap {
+  width: 70px;
   height: 30px;
   margin-top: 15px;
 }
 
+/* Container for dropdown menu */
 .dropdown {
   position: relative;
   display: inline-block;
-  margin-left: -500px;
+  margin-left: -500px; 
 }
 
-
+/* Dropdown button styling */
 .dropbtn {
   background: none;
   border: none;
@@ -38,11 +45,11 @@ header{
   margin-left: -100px;
 }
 
-
+/* Hidden dropdown content by default */
 .dropdown-content {
-  display: none; 
+  display: none;
   position: absolute;
-  top: 100%; 
+  top: 100%;
   left: 0;
   background-color: white;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
@@ -52,11 +59,12 @@ header{
   margin-left: -100px;
 }
 
+/* Show dropdown content on hover */
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-
+/* Dropdown item styling  */
 .dropdown-content a,
 .dropdown-content div {
   display: flex;
@@ -69,7 +77,7 @@ header{
   white-space: nowrap;
 }
 
-
+/* Hover effect for dropdown items */
 .dropdown-content a:hover,
 .dropdown-content div:hover {
   background-color: #f0f0f0;
@@ -77,62 +85,75 @@ header{
   cursor: pointer;
 }
 
-
-.career-div{
+/* Navigation links container styling */
+.career-div {
   display: flex;
   gap: 70px;
   margin-top: 4px;
 }
-.career-div a{
-text-decoration: none;
-color: rgb(75, 60, 60);
-font-weight: normal;
-margin-top: 10px;
-font-size: 18px;
 
-
+/* Individual career navigation links */
+.career-div a {
+  text-decoration: none;
+  color: rgb(75, 60, 60);
+  font-weight: normal;
+  margin-top: 10px;
+  font-size: 18px;
 }
-.makes-div{
+
+/* Main section layout: text + image */
+.makes-div {
   display: flex;
   margin-top: -20px;
   justify-content: space-between;
   padding: 60px;
 }
-.smaller-div{
-width: 50%;
-margin-left: 100px;
-margin-top: 60px;
+
+/* Text content box in main section */
+.smaller-div {
+  width: 50%;
+  margin-left: 100px;
+  margin-top: 60px;
 }
 
-#first-heading{
+/* Large heading */
+#first-heading {
   font-size: 60px;
   margin-bottom: 20px;
-  
 }
-.registering{
+
+/* Button for registering */
+.registering {
   background-color: transparent;
   border: 1px solid black;
   border-radius: 15px;
   margin-top: 10px;
- }
- 
-.login{
+}
+
+/* Login link styling */
+.login {
   text-decoration: none;
   color: rgb(78, 75, 75);
   padding-right: 50px;
- font-size: 19px;
-
+  font-size: 19px;
 }
-.registering:hover, .dropbtn:hover, .career-nav a:hover{
-  color: blue;
- }
 
- .paragraph{
+/* Hover  for register element */
+.registering:hover, 
+.dropbtn:hover, 
+.career-nav a:hover {
+  color: blue;
+}
+
+/* Paragraph text in main section */
+.paragraph {
   font-size: 22px;
   color: black;
   margin-bottom: 30px;
- }
-.learn{
+}
+
+/* 'Learn more' button styling */
+.learn {
   background-color: black;
   border: none;
   border-radius: 15px;
@@ -140,36 +161,41 @@ margin-top: 60px;
   width: 140px;
   color: white;
   margin-top: 50px;
-  
-}
-.learn:hover{
-color: black;
-background-color: white;
-border: 1px solid black;
 }
 
-.big-image #laptop-guy{
-width: 55%;
-
-height: auto;
-
-
+/* Hover for 'Learn more' button */
+.learn:hover {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
 }
-.infor{
+
+/* sizes for image */
+.big-image #laptop-guy {
+  width: 55%;
+  height: auto;
+}
+
+/* Infor section layout */
+.infor {
   display: flex;
- justify-content: space-around;
- padding: 0px 200px;
- margin-right: 500px;
- margin-left: -200px;
-
+  justify-content: space-around;
+  padding: 0px 200px;
+  margin-right: 500px;
+  margin-left: -200px;
 }
+
+/* Positioning image inside info section */
 .infor > figure {
-margin-top: -100px;
+  margin-top: -100px;
 }
-#laptop-guy{
-  margin-left: 300px;
 
+/* position for image */
+#laptop-guy {
+  margin-left: 300px;
 }
+
+/* Responsive styles for tablets */
 @media screen and (max-width: 768px) {
   header {
     flex-direction: column;
@@ -227,6 +253,8 @@ margin-top: -100px;
     margin: 20px auto;
   }
 }
+
+/* Responsive styles for small screens */
 @media screen and (max-width: 480px) {
   #first-heading {
     font-size: 30px;
